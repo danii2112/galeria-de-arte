@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a3a3a;
+    color: #dccfec;
+    background-image: url('img/noche\ estrellada.gif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .artwork {
+    border: 1px solid #4f517d;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddc4dd;
+    color: #1a3a3a;
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  
+  .artwork h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #4f517d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Estilos de audio */
+  audio {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Estilos de enlaces */
+  a {
+    color: #a997df;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
